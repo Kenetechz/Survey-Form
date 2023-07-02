@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey FORM</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="title">Survey Form for KLeneTech</h1>
+    <p id="description">
+      <i> Thank you for taking your time to help improve this program</i>
+    </p>
+    <main class="main-form">
+      <form action="#" id="survey-form">
+        <fieldset>
+          <label for="name">Full Name </label
+          ><input
+            type="text"
+            placeholder="Enter your name"
+            name="name"
+            id="name"
+            required
+          />
+          <label for="email">Email Address</label
+          ><input
+            type="email"
+            placeholder="Enter your email address"
+            name="email"
+            id="email"
+            required
+          />
+          <label for="age">Age <span>(Optional)</span> </label
+          ><input
+            type="number"
+            name="age"
+            id="number"
+            min="16"
+            max="120"
+            placeholder="Enter your age"
+          />
+        </fieldset>
+        <fieldset>
+          <label for="current-role" class="main-label"
+            >Which option best describes your current role?</label
+          >
+          <select name="" id="">
+            <option value="">Select current role</option>
+            <option value="1">Frontend developer</option>
+            <option value="2">Backend developer</option>
+            <option value="3">Graphic designer</option>
+            <option value="4">UI/UX designer</option>
+            <option value="6">Product manager</option>
+            <option value="7">Others</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <label for="recommendation" class="main-label"
+            >Would you recommend Klenetech to anyone?
+          </label>
+
+          <label for="definitely">
+            <input type="radio" name="recommendation" id="recommendation" />
+            Definitely
+          </label>
+
+          <label for="">
+            <input type="radio" name="recommendation" id="maybe" />
+            Maybe
+          </label>
+
+          <label for="">
+            <input type="radio" name="recommendation" id="not-sure" /> Not
+            sure</label
+          >
+        </fieldset>
+        <fieldset>
+          <label for="feature" class="main-label"
+            >What is your favourite feature of Klenetech?
+          </label>
+          <select name="" id="feature">
+            <option value="">Select an option</option>
+            <option value="1">Challenges</option>
+            <option value="2">Project</option>
+            <option value="3">Community</option>
+            <option value="4">Open Source</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <label for="improvement" class="main-label"
+            >What would you like to be improved in KleneTech?
+            <span>(Check all that applies)</span></label
+          >
+          <label for=""
+            ><input type="checkbox" name="" id="" /> Front-end Project
+          </label>
+          <label for=""
+            ><input type="checkbox" name="" id="" /> Back-end Project
+          </label>
+          <label for=""
+            ><input type="checkbox" name="" id="" /> Data Analytics
+          </label>
+          <label for=""
+            ><input type="checkbox" name="" id="" /> Challenges
+          </label>
+          <label for=""><input type="checkbox" name="" id="" /> Wikis </label>
+          <label for=""
+            ><input type="checkbox" name="" id="" /> Open Source Community
+          </label>
+          <label for=""
+            ><input type="checkbox" name="" id="" /> Gitter help rooms
+          </label>
+          <label for=""><input type="checkbox" name="" id="" /> Videos </label>
+          <label for=""
+            ><input type="checkbox" name="" id="" /> City Meetups
+          </label>
+          <label for=""><input type="checkbox" name="" id="" /> Forum </label>
+          <label for=""
+            ><input type="checkbox" name="" id="" /> Additional courses
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="comment">Any Comment or Suggestions? </label>
+          <textarea
+            name=""
+            id="comment"
+            cols="40"
+            rows="10"
+            placeholder="Drop a comment"
+          ></textarea>
+        </fieldset>
+        <div class="submit"><input type="submit" value="Submit" /></div>
+      </form>
+    </main>
+  </body>
+</html>
